@@ -603,7 +603,7 @@ Qlinqo.Peg = Stratiscape.DrawnObject.extend({ //peg/knob drawn object class
 		this.image.onload = function() {
 				my.imageLoaded = true;
 			};
-		this.image.src = 'Resources/stake.png';
+		this.image.src = 'https://cdn.rawgit.com/deepakbasnal/plinko/837c650e/Resources/stake.png';
 	},
 	
 	// fade: function() {
