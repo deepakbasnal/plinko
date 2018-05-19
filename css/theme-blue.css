@@ -3,7 +3,7 @@ canvas {
     padding: 0px 74px 149px 64px;
 }
 .wof-wheel.wof-theme-blue {
-    background-image: url(../images/bg.svg);
+    background-image: url(https://cdn.rawgit.com/deepakbasnal/plinko/a18c4726/images/bg.svg);
     background-repeat: no-repeat;
     background-size: cover;
         background-position: right;
