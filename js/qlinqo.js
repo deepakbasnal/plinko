@@ -47,13 +47,13 @@ Qlinqo.Setup = function (playfieldLayer, foregroundLayer, backgroundLayer, debug
 
 	//setup sound effects
 	
-	Qlinqo.SfxInterface = new SfxInterface(['Resources/beep1.wav'
-										   ,'Resources/beep2.wav'
-										   ,'Resources/beep3.wav'
-										   ,'Resources/beep4.wav'
-										   ,'Resources/points.wav'
-										   ,'Resources/zeropoints.wav'
-										   ,'Resources/highpoints.wav']);
+	Qlinqo.SfxInterface = new SfxInterface(['https://cdn.rawgit.com/deepakbasnal/plinko/d7708235/Resources/beep1.wav'
+						,'https://cdn.rawgit.com/deepakbasnal/plinko/d7708235/Resources/beep2.wav'
+						,'https://cdn.rawgit.com/deepakbasnal/plinko/d7708235/Resources/beep3.wav'
+						,'https://cdn.rawgit.com/deepakbasnal/plinko/d7708235/Resources/beep4.wav'
+						,'https://cdn.rawgit.com/deepakbasnal/plinko/d7708235/Resources/points.wav'
+						,'https://cdn.rawgit.com/deepakbasnal/plinko/d7708235/Resources/zeropoints.wav'
+						,'https://cdn.rawgit.com/deepakbasnal/plinko/d7708235/Resources/highpoints.wav']);
 	Qlinqo.SfxInterface.setVolume(0.5);
 	Qlinqo.SfxInterface.setVolumeAt(0, 0.1);
 	Qlinqo.SfxInterface.setVolumeAt(1, 0.1);
@@ -566,7 +566,7 @@ Qlinqo.StatusGamePiece = Stratiscape.DrawnObject.extend({ //shows how many balls
 		this.image.onload = function() {
 				my.imageLoaded = true;
 			};
-		this.image.src = 'Resources/ball-small.png';
+		this.image.src = 'https://cdn.rawgit.com/deepakbasnal/plinko/d7708235/Resources/highpoints.wav';
 	},
 	
 	draw: function(ctx) {
