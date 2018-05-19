@@ -2326,11 +2326,6 @@ a:hover {
 }
 .site-header {
   position: relative;
-  background: #40BAF5;
-  background-image: -webkit-gradient(45deg, #125DA9 0%, #1e88e5 64%, #40BAF5 95%);
-  background-image: -o-linear-gradient(45deg, #125DA9 0%, #1e88e5 64%, #40BAF5 95%);
-  background-image: -moz-linear-gradient(45deg, #125DA9 0%, #1e88e5 64%, #40BAF5 95%);
-  background-image: linear-gradient(45deg, #125DA9 0%, #1e88e5 64%, #40BAF5 95%);
 }
 .site-header .header-inside {
   padding: 15px 4% 15px 4%;
