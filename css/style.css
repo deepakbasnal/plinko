@@ -2786,7 +2786,7 @@ a.open-demo-blue img{
 }
 
 canvas#lyr_canvasQlinqoBackground1 {
-    background:url(../images/plinko-bg.svg) !important;
+    background:url(https://cdn.rawgit.com/deepakbasnal/plinko/6056ce65/images/plinko-bg.svg) !important;
     background-size: 100% !important;
     /* box-shadow: 6px 9px 9px 0px #00000066; */
     background-repeat: no-repeat !important;
