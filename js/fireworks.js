@@ -13,7 +13,7 @@ var FW = {
 		FW.foregroundLayer=foregroundLayer;
 		
 		
-		FW.SfxInterface = new SfxInterface(['Resources/boom.wav']);
+		FW.SfxInterface = new SfxInterface(['https://cdn.rawgit.com/deepakbasnal/plinko/7e3d7b0a/Resources/boom.wav']);
 		FW.SfxInterface.setVolume(0.2);
 		
 		/*
