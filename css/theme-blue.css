@@ -1,0 +1,63 @@
+canvas {
+    display: inline-block;
+    padding: 0px 74px 149px 64px;
+}
+.wof-wheel.wof-theme-blue {
+    background-image: url(../images/bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+        background-position: right;
+}
+.wof-wheel.wof-theme-blue .wof-wheel-bg {
+    background-image: url(../img/wheel-blue.png)
+}
+
+.wof-wheel.wof-theme-blue .wof-pointer-color {
+    fill: #8BC34A
+}
+
+.wof-wheel.wof-theme-blue .wof-title em {
+    color: #FFF
+}
+canvas#snow {
+    padding: 0px !important;
+    position: fixed;
+    z-index: 1;
+}
+.wof-wheel.wof-theme-blue .wof-slice[data-slice="1"],
+.wof-wheel.wof-theme-blue .wof-slice[data-slice="5"],
+.wof-wheel.wof-theme-blue .wof-slice[data-slice="9"] {
+    color: #225378
+}
+
+.wof-wheel.wof-theme-blue button {
+    color: #ffffff;
+    background: #036887;
+    border: 2px solid #FFF;
+}
+
+.wof-wheel.wof-theme-blue .wof-error {
+    border-color: #202020
+}
+canvas#lyr_canvasQlinqoMouseHit3 {
+    padding: 0;
+}
+
+.wof-wheel .wof-title, .wof-wheel .wof-disclaimer, .wof-wheel .wof-explainer{
+    color: #FFF
+}
+
+.wof-wheel.wof-theme-blue .wof-title em {
+    color: #FFF;
+}
+
+
+.wof-wheel .wof-close-icon {
+    top: 10px;
+    right: 10px;
+    background: #036887;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+}
