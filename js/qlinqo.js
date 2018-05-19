@@ -566,7 +566,7 @@ Qlinqo.StatusGamePiece = Stratiscape.DrawnObject.extend({ //shows how many balls
 		this.image.onload = function() {
 				my.imageLoaded = true;
 			};
-		this.image.src = 'https://cdn.rawgit.com/deepakbasnal/plinko/d7708235/Resources/highpoints.wav';
+		this.image.src = 'https://cdn.rawgit.com/deepakbasnal/plinko/7b709b1c/Resources/ball-small.png';
 	},
 	
 	draw: function(ctx) {
