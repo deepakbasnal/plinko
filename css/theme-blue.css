@@ -78,60 +78,6 @@ canvas#lyr_canvasQlinqoMouseHit3 {
     padding: 8px;
 }
 
-
-
-
-* {
-	margin: 0;
-	padding: 0;
-}
-html {
-	height: 100%;
-	width: 100%
-}
-body {
-	height: 100%;
-	width: 100%;
-	color:#FFF;
-
-	/*  Webkit */
-	display: -webkit-box;
-	-webkit-box-orient: horizontal;
-	-webkit-box-pack: center;
-	-webkit-box-align: center;
-	
-	/*  Mozilla */
-	display: -moz-box;
-	-moz-box-orient: horizontal;
-	-moz-box-pack: center;
-	-moz-box-align: center;
-	
-	/*  Standard */
-	display: box;
-	box-orient: horizontal;
-	box-pack: center;
-	box-align: center;
-	
-	
-	/*
-	box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	-ms-box-sizing: border-box;
-	*/
-	
-	/*font-family: Lucida Sans Unicode,Veranda,Lucida Grande,Lucida Sans;*/
-	font-family:Trebuchet MS,Tahoma,Verdana,Arial,sans-serif;
-
-	/*disable text selection*/
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-o-user-select: none;
-	user-select: none;
-
-	outline:none;
-}
-
 .wof-wheels .wof-wheel{
 overflow:hidden
 }
