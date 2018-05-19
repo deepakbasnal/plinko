@@ -517,7 +517,7 @@ Qlinqo.GamePiece = Stratiscape.DrawnObject.extend({ //gamepiece/disk drawn objec
 		this.image.onload = function() {
 				my.imageLoaded = true;
 			};
-		this.image.src = 'Resources/ball.png';
+		this.image.src = 'https://cdn.rawgit.com/deepakbasnal/plinko/977e818c/Resources/ball.png';
 		
 		//set a slight random rotation to make things interesting
 		var omega = Qlinqo.Util.NextRandom(-15, 16);
